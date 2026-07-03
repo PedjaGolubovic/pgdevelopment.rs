@@ -119,6 +119,7 @@ h2 {
 .hero-content h1 {
     font-size: 64px;
     max-width: 900px;
+    margin: auto;
 }
 
 .hero-content p {

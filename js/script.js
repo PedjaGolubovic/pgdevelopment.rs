@@ -95,7 +95,7 @@ const translations = {
         contact: "Contact",
 
         heroTitle: "Modern Websites That Grow Your Business",
-        heroText: "Modern, fast, and responsive websites designed to help your business grow online.",
+        heroText: "PG Development provides professional development of websites, landing pages and SEO optimization for companies, entrepreneurs and local businesses. We create modern, fast and responsive websites that help your business attract more customers and achieve better results on the Internet.",
         heroBtn1: "View Work",
         heroBtn2: "Contact Us",
 
@@ -113,7 +113,7 @@ const translations = {
         portfolioTitle: "Portfolio",
 
         aboutTitle: "About Us",
-        aboutText: "PG Development is a team dedicated to creating modern, fast and professional websites. Our goal is to help individuals, entrepreneurs and companies build a strong online presence through quality design and reliable web solutions. We believe that every project deserves attention, creativity and technical precision. That's why we develop each site with a focus on user experience, performance and adaptability to all devices. Regardless of whether you need a business website, a portfolio, a landing page or a completely customized web solution, we strive to turn your ideas into a modern and functional product that brings results. Your success online is our priority.", 
+        aboutText: "PG Development is a team dedicated to creating modern, fast and professional websites. Our goal is to help individuals, entrepreneurs and companies build a strong online presence through quality design and reliable web solutions. We believe that every project deserves attention, creativity and technical precision. That's why we develop each site with a focus on user experience, performance and adaptability to all devices. Regardless of whether you need a business website, a portfolio, a landing page or a completely customized web solution, we strive to turn your ideas into a modern and functional product that brings results. Your success online is our priority. We specialize in creating business websites, portfolio presentations, landing pages and optimization for Google search. Our goal is for every client to get a professional website that looks modern, loads fast and helps attract new clients.", 
 
         contactTitle: "Contact Us",
         name: "Your Name",
@@ -133,7 +133,7 @@ const translations = {
         contact: "Kontakt",
 
         heroTitle: "Модерни веб-сајтови који развијају ваше пословање",
-        heroText: "Модерни, брзи и респонзивни веб сајтови дизајнирани да помогну вашем пословању да расте на мрежи.",
+        heroText: "PG Development pruža profesionalnu izradu web sajtova, landing stranica i SEO optimizaciju za firme, preduzetnike i lokalne biznise. Kreiramo moderne, brze i responsivne sajtove koji pomažu vašem poslovanju da privuče više klijenata i ostvari bolje rezultate na internetu.",
         heroBtn1: "Pogledaj Radove",
         heroBtn2: "Kontakt",
 
@@ -151,7 +151,7 @@ const translations = {
         portfolioTitle: "Portfolio",
 
         aboutTitle: "O nama",
-        aboutText: "PG Development je tim posvećen kreiranju modernih, brzih i profesionalnih web sajtova. Naš cilj je da pomognemo pojedincima, preduzetnicima i kompanijama da izgrade snažno prisustvo na mreži kroz kvalitetan dizajn i pouzdana web rešenja. Verujemo da svaki projekat zaslužuje pažnju, kreativnost i tehničku preciznost. Zato razvijamo svaki sajt sa fokusom na korisničko iskustvo, performanse i prilagodljivost svim uređajima. Bez obzira da li vam je potreban poslovni sajt, portfolio, landing stranica ili potpuno prilagođeno web rešenje, trudimo se da vaše ideje pretvorimo u moderan i funkcionalan proizvod koji donosi rezultate. Vaš uspeh na mreži je naš prioritet.", 
+        aboutText: "PG Development je tim posvećen kreiranju modernih, brzih i profesionalnih web sajtova. Naš cilj je da pomognemo pojedincima, preduzetnicima i kompanijama da izgrade snažno prisustvo na mreži kroz kvalitetan dizajn i pouzdana web rešenja. Verujemo da svaki projekat zaslužuje pažnju, kreativnost i tehničku preciznost. Zato razvijamo svaki sajt sa fokusom na korisničko iskustvo, performanse i prilagodljivost svim uređajima. Bez obzira da li vam je potreban poslovni sajt, portfolio, landing stranica ili potpuno prilagođeno web rešenje, trudimo se da vaše ideje pretvorimo u moderan i funkcionalan proizvod koji donosi rezultate. Vaš uspeh na mreži je naš prioritet. Specijalizovani smo za izradu poslovnih sajtova, portfolio prezentacija, landing stranica i optimizaciju za Google pretragu. Naš cilj je da svaki klijent dobije profesionalan web sajt koji izgleda moderno, učitava se brzo i pomaže u privlačenju novih klijenata.", 
 
 
         contactTitle: "Kontakt",
