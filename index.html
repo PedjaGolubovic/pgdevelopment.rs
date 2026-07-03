@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="images/png" href="images/logo_favicon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="pg">PG</span>
+            <span class="dev">DEVELOPMENT</span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a id="nav-home" href="#home">Home</a></li>
+            <li><a id="nav-services" href="#services">Services</a></li>
+            <li><a id="nav-portfolio" href="#portfolio">Portfolio</a></li>
+            <li><a id="nav-about" href="#about">About</a></li>
+            <li><a id="nav-contact" href="#contact">Contact</a></li>
+            <li>
+                <div class="lang-switch" id="lang-btn">
+                    <button id="en-btn">EN</button>
+                    <button id="sr-btn">SR</button>
+                </div>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+        <div class="contact-info">
+            <a href="tel:+381606220403">
+                <span class="icon">📞</span>
+                <span class="text">+381 60 622 0403</span>
+            </a>
+            <a href="mailto:pgdevelopment.rs@gmail.com">
+                <span class="icon">✉️</span>
+                <span class="text">pgdevelopment.rs@gmail.com</span>
+            </a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title">Modern Websites That Grow Your Business</h1>
+            <p id="hero-text">Modern, fast, and responsive websites designed to help your business grow online.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn" id="hero-btn-1">View Work</a>
+                <a href="#contact" class="btn-outline" id="hero-btn-2">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 id="services-title">Our Services</h2>
+        <p id="servicesp-title">We provide complete web solutions for individuals, entrepreneurs and companies. From idea to finished site, we focus on quality, performance and modern design.</p>
+        <br>
+        <div class="service-grid">
+            <div class="card" id="service-grid-web">Web Development 💻 Creating modern, fast and functional websites tailored to your needs.</div>
+            <div class="card" id="service-grid-responsive">Responsive Design 📱Sites that work perfectly on phones, tablets and computers.</div>
+            <div class="card" id="service-grid-landing">Landing Pages 🚀Pages optimized for promoting products, services and attracting customers.</div>
+            <div class="card" id="service-grid-redesign">Website Redesign 🎨Modernization of existing sites with better appearance, speed and user experience.</div>
+            <div class="card" id="service-grid-seo">SEO Optimization 📈Optimization of the site to be better positioned on search engines such as Google.</div>
+            <div class="card" id="service-grid-maintenance">Maintenance & Support 🛠Regular maintenance, updates and technical support after the website is published.</div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-grid">
+            <div class="project-card">Project 1</div>
+            <div class="project-card">Project 2</div>
+            <div class="project-card">Project 3</div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 id="about-title">About Us</h2>
+        <p id="about-text">PG Development is a team dedicated to creating modern, fast and professional websites. Our goal is to help individuals, entrepreneurs and companies build a strong online presence through quality design and reliable web solutions.
+            We believe that every project deserves attention, creativity and technical precision. That's why we develop each site with a focus on user experience, performance and adaptability to all devices.
+            Regardless of whether you need a business website, a portfolio, a landing page or a completely customized web solution, we strive to turn your ideas into a modern and functional product that brings results.
+            Your success online is our priority.</p>
+
+    </section>
+
+    <section id="contact" class="contact">
+    <h2 id="contact-title">Contact Us</h2>
+
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <div class="contact-buttons">
+            <button type="button" id="whatsapp-btn" class="btn">
+                Send on WhatsApp 
+            </button>
+
+            <button type="button" id="email-btn" class="btn">
+                Send on Email
+            </button>
+        </div>
+    </form>
+</section>
+
+    <footer>
+        <p id="footer-text">© 2026 PG Development. All rights reserved.</p>    
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
