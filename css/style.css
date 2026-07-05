@@ -294,6 +294,17 @@ footer {
     cursor: pointer;
 }
 
+p {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.8s ease;
+}
+
+p.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 
 
@@ -374,17 +385,6 @@ footer {
     }
 }
 
-@media (max-width: 992px) {
-    .hero-content h1 {
-        font-size: 48px;
-    }
-
-    .service-grid,
-    .portfolio-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width: 1111px) {
     .contact-info a .text {
         display: none;
@@ -397,4 +397,210 @@ footer {
     .contact-info a {
         font-size: 24px;
     }
+}
+
+
+
+.pricing {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 40px 30px;
+    width: 320px;
+    transition: 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.featured {
+    border: 2px solid #00bfff;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00bfff;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    margin: 12px 0;
+}
+
+.badge {
+    display: inline-block;
+    background: #00bfff;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+
+.technologies {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.technologies h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+}
+
+.tech-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.3s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-8px);
+}
+
+.tech-card i {
+    font-size: 50px;
+    color: #00bfff;
+    margin-bottom: 15px;
+}
+
+.tech-card span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.stats {
+    padding: 80px 10%;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.stat-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+}
+
+.stat-card h3 {
+    font-size: 42px;
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.faq {
+    padding: 100px 10%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 42px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 20px;
+    background: #1a1a1a;
+    color: #ccc;
+}
+
+.faq-answer.active {
+    display: block;
 }

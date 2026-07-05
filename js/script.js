@@ -99,8 +99,12 @@ const translations = {
         heroBtn1: "View Work",
         heroBtn2: "Contact Us",
 
-        servicesTitle: "Our Services",
+        statCardProjects: "Projects Completed",
+        statCardResponsive: "Mobile Responsive",
+        statCardSupport: "Support",
+        statCardDelivery: "Days Delivery",
 
+        servicesTitle: "Our Services",
         servicespTitle: "We provide complete web solutions for individuals, entrepreneurs and companies. From idea to finished site, we focus on quality, performance and modern design.",
 
         serviceGridWeb: "Web Development 💻 Creating modern, fast and functional websites tailored to your needs.",
@@ -110,10 +114,61 @@ const translations = {
         serviceGridSeo: "SEO Optimization 📈Optimization of the site to be better positioned on search engines such as Google.",
         serviceGridMaintenance: "Maintenance & Support 🛠Regular maintenance, updates and technical support after the website is published.",
 
+        pricingTitle: "Pricing Plans",
+        pricingCardStarter: "Starter",
+        pricingCardBusiness: "Business",
+        pricingCardPremium: "Premium",
+        pricingCardWebShop: "Web Shop",
+        pricingCardPopular: "POPULAR",
+
+        priceLanding: "Landing Page",
+        priceResponsive: "Mobile Responsive",
+        priceContact: "Contact Form",
+        priceSeo: "Basic SEO",
+
+        pricePages: "Up to 5 Pages",
+        priceModern: "Modern Design",
+        priceSeoAdvanced: "SEO Optimization",
+        priceMaps: "Google Maps Integration",
+
+        priceUnlimited: "Unlimited Pages",
+        priceAdvancedSeo: "Advanced SEO",
+        priceAnimations: "Custom Animations",
+        pricePriority: "Priority Support",
+
+        priceOnlineStore: "Online Store",
+        priceProductManagement: "Product Management",
+        priceSecurePayments: "Secure Payments",
+        priceMobileResponsive: "Mobile Responsive",
+        priceSeoWebShop: "SEO Optimization",
+        priceAdminDashboard: "Admin Dashboard",
+
         portfolioTitle: "Portfolio",
 
         aboutTitle: "About Us",
         aboutText: "PG Development is a team dedicated to creating modern, fast and professional websites. Our goal is to help individuals, entrepreneurs and companies build a strong online presence through quality design and reliable web solutions. We believe that every project deserves attention, creativity and technical precision. That's why we develop each site with a focus on user experience, performance and adaptability to all devices. Regardless of whether you need a business website, a portfolio, a landing page or a completely customized web solution, we strive to turn your ideas into a modern and functional product that brings results. Your success online is our priority. We specialize in creating business websites, portfolio presentations, landing pages and optimization for Google search. Our goal is for every client to get a professional website that looks modern, loads fast and helps attract new clients.", 
+
+        technologiesWeUse: "Technologies We Use",
+
+        faqTitle: "Frequently Asked Questions",
+        faqQuestionHow: "How long does a website take?",
+        faqAnswerHow: "Usually 3–14 days depending on the complexity and requirements of the project.",
+        faqQuestionHosting: "Do you provide hosting services?",
+        faqAnswerHosting: "Yes, we can assist with hosting setup and recommend reliable hosting providers.",
+        faqQuestionRedesign: "Can you redesign my existing website?",
+        faqAnswerRedesign: "Absolutely! We can modernize your existing website with improved design, speed, and user experience.",
+        faqQuestionMobile: "Will my website work on mobile devices?",
+        faqAnswerMobile: "Yes, all websites are fully responsive and optimized for mobile, tablet, and desktop devices.",
+        faqQuestionSeo: "Do you offer SEO services?",
+        faqAnswerSeo: "Yes, we provide basic and advanced SEO optimization to help your site rank better on search engines.",
+        faqQuestionUpdate: "Can I update the website myself?",
+        faqAnswerUpdate: "Yes, depending on the project, we can provide an easy way for you to manage and update content.",
+        faqQuestionOffer: "Do you offer website maintenance?",
+        faqAnswerOffer: "Yes, we offer ongoing maintenance, updates, and technical support after launch.",
+        faqQuestionCost: "How much does a website cost?",
+        faqAnswerCost: "Pricing depends on the size and complexity of the project. Contact us for a free quote.",
+        faqQuestionStore: "Can you build an online store?",
+        faqAnswerStore: "Yes, we create fully functional e-commerce websites with product management and secure payments.",
 
         contactTitle: "Contact Us",
         name: "Your Name",
@@ -137,8 +192,12 @@ const translations = {
         heroBtn1: "Pogledaj Radove",
         heroBtn2: "Kontakt",
 
-        servicesTitle: "Naše Usluge",
+        statCardProjects: "Završenih Projekata",
+        statCardResponsive: "Mobilno Prilagođeno",
+        statCardSupport: "Podrška",
+        statCardDelivery: "Dana Isporuke",
 
+        servicesTitle: "Naše Usluge",
         servicespTitle: "Pružamo kompletna web rešenja za pojedince, preduzetnike i kompanije. Od ideje do gotovog sajta, fokusirani smo na kvalitet, performanse i moderan dizajn.",
 
         serviceGridWeb: "Web Development 💻 Izrada modernih, brzih i funkcionalnih web sajtova prilagođenih vašim potrebama.",
@@ -148,11 +207,61 @@ const translations = {
         serviceGridSeo: "SEO Optimization 📈 Optimizacija sajta kako bi bio bolje pozicioniran na pretraživačima kao što je Google.",
         serviceGridMaintenance: "Maintenance & Support 🛠️ Redovno održavanje, ažuriranja i tehnička podrška nakon objavljivanja sajta.",
 
+        pricingTitle: "Cenovnik",
+        pricingCardStarter: "Starter",
+        pricingCardBusiness: "Business",
+        pricingCardPremium: "Premium",
+        pricingCardWebShop: "Web Shop",
+        pricingCardPopular: "POPULARNO",
+
+        priceLanding: "Landing Stranica",
+        priceResponsive: "Mobilno Prilagođeno",
+        priceContact: "Kontakt Forma",
+        priceSeo: "Osnovna SEO Optimizacija",
+
+        pricePages: "Do 5 Stranica",
+        priceModern: "Moderan Dizajn",
+        priceSeoAdvanced: "Napredna SEO Optimizacija",
+        priceMaps: "Integracija Google Mapa",
+
+        priceUnlimited: "Neograničen Broj Stranica",
+        priceAdvancedSeo: "Napredna SEO Optimizacija",
+        priceAnimations: "Prilagođene Animacije",
+        pricePriority: "Prioritetna Podrška",
+
+        priceOnlineStore: "Online Prodavnica",
+        priceProductManagement: "Upravljanje Proizvodima",
+        priceSecurePayments: "Sigurna Plaćanja",
+        priceMobileResponsive: "Mobilno Prilagođeno",
+        priceSeoWebShop: "SEO Optimizacija",
+        priceAdminDashboard: "Administrativni Panel",
+
         portfolioTitle: "Portfolio",
 
         aboutTitle: "O nama",
         aboutText: "PG Development je tim posvećen kreiranju modernih, brzih i profesionalnih web sajtova. Naš cilj je da pomognemo pojedincima, preduzetnicima i kompanijama da izgrade snažno prisustvo na mreži kroz kvalitetan dizajn i pouzdana web rešenja. Verujemo da svaki projekat zaslužuje pažnju, kreativnost i tehničku preciznost. Zato razvijamo svaki sajt sa fokusom na korisničko iskustvo, performanse i prilagodljivost svim uređajima. Bez obzira da li vam je potreban poslovni sajt, portfolio, landing stranica ili potpuno prilagođeno web rešenje, trudimo se da vaše ideje pretvorimo u moderan i funkcionalan proizvod koji donosi rezultate. Vaš uspeh na mreži je naš prioritet. Specijalizovani smo za izradu poslovnih sajtova, portfolio prezentacija, landing stranica i optimizaciju za Google pretragu. Naš cilj je da svaki klijent dobije profesionalan web sajt koji izgleda moderno, učitava se brzo i pomaže u privlačenju novih klijenata.", 
 
+        technologiesWeUse: "Tehnologije Koje Koristimo",
+
+        faqTitle: "Često Postavljana Pitanja",
+        faqQuestionHow: "Koliko vremena je potrebno za izradu sajta?",
+        faqAnswerHow: "Obično 3–14 dana, u zavisnosti od složenosti i zahteva projekta.",
+        faqQuestionHosting: "Da li pružate hosting usluge?",
+        faqAnswerHosting: "Da, možemo vam pomoći oko postavljanja hostinga i preporučiti pouzdane hosting provajdere.",
+        faqQuestionRedesign: "Možete li redizajnirati moj postojeći sajt?",
+        faqAnswerRedesign: "Apsolutno! Možemo modernizovati vaš postojeći sajt sa poboljšanim dizajnom, brzinom i korisničkim iskustvom.",
+        faqQuestionMobile: "Da li će moj sajt raditi na mobilnim uređajima?",
+        faqAnswerMobile: "Da, svi sajtovi su potpuno responsivni i optimizovani za mobilne telefone, tablete i desktop uređaje.",
+        faqQuestionSeo: "Da li nudite SEO usluge?",
+        faqAnswerSeo: "Da, pružamo osnovnu i naprednu SEO optimizaciju kako bi vaš sajt bio bolje rangiran na pretraživačima.",
+        faqQuestionUpdate: "Mogu li samostalno ažurirati sajt?",
+        faqAnswerUpdate: "Da, u zavisnosti od projekta, možemo vam omogućiti jednostavan način za upravljanje i ažuriranje sadržaja.",
+        faqQuestionOffer: "Da li nudite održavanje sajta?",
+        faqAnswerOffer: "Da, nudimo kontinuirano održavanje, ažuriranja i tehničku podršku nakon lansiranja.",
+        faqQuestionCost: "Koliko košta izrada sajta?",
+        faqAnswerCost: "Cena zavisi od veličine i složenosti projekta. Kontaktirajte nas za besplatnu ponudu.",
+        faqQuestionStore: "Možete li napraviti online prodavnicu?",
+        faqAnswerStore: "Da, kreiramo potpuno funkcionalne e-commerce sajtove sa upravljanjem proizvodima i sigurnim plaćanjima.",
 
         contactTitle: "Kontakt",
         name: "Vaše ime",
@@ -177,8 +286,12 @@ function setLanguage(lang) {
     setText("hero-title", t.heroTitle);
     setText("hero-text", t.heroText);
 
-    setText("services-title", t.servicesTitle);
+    setText("stat-card-projects", t.statCardProjects);
+    setText("stat-card-responsive", t.statCardResponsive);
+    setText("stat-card-support", t.statCardSupport);
+    setText("stat-card-delivery", t.statCardDelivery);
 
+    setText("services-title", t.servicesTitle);
     setText("servicesp-title", t.servicespTitle);
 
     setText("service-grid-web", t.serviceGridWeb);
@@ -188,8 +301,58 @@ function setLanguage(lang) {
     setText("service-grid-seo", t.serviceGridSeo);
     setText("service-grid-maintenance", t.serviceGridMaintenance);
 
+    setText("pricing-title", t.pricingTitle);
+    setText("pricing-card-starter", t.pricingCardStarter);
+    setText("price-landing", t.priceLanding);
+    setText("price-responsive", t.priceResponsive);
+    setText("price-contact", t.priceContact);
+    setText("price-seo", t.priceSeo);
+
+    setText("pricing-card-business", t.pricingCardBusiness);
+    setText("price-pages", t.pricePages);
+    setText("price-modern", t.priceModern);
+    setText("price-seo-advanced", t.priceSeoAdvanced);
+    setText("price-maps", t.priceMaps);
+
+    setText("pricing-card-premium", t.pricingCardPremium);
+    setText("price-unlimited", t.priceUnlimited);
+    setText("price-advanced-seo", t.priceAdvancedSeo);
+    setText("price-animations", t.priceAnimations);
+    setText("price-priority", t.pricePriority);
+
+    setText("pricing-card-web-shop", t.pricingCardWebShop);
+    setText("pricing-card-popular", t.pricingCardPopular);
+    setText("price-online-store", t.priceOnlineStore);
+    setText("price-product-management", t.priceProductManagement);
+    setText("price-secure-payments", t.priceSecurePayments);
+    setText("price-mobile-responsive", t.priceMobileResponsive);
+    setText("price-seo-web-shop", t.priceSeoWebShop);
+    setText("price-admin-dashboard", t.priceAdminDashboard);
+
     setText("about-title", t.aboutTitle);
     setText("about-text", t.aboutText);
+
+    setText("technologies-we-use", t.technologiesWeUse);
+
+    setText("faq-title", t.faqTitle);
+    setText("faq-question-how", t.faqQuestionHow);
+    setText("faq-answer-how", t.faqAnswerHow);
+    setText("faq-question-hosting", t.faqQuestionHosting);
+    setText("faq-answer-hosting", t.faqAnswerHosting);
+    setText("faq-question-redesign", t.faqQuestionRedesign);
+    setText("faq-answer-redesign", t.faqAnswerRedesign);
+    setText("faq-question-mobile", t.faqQuestionMobile);
+    setText("faq-answer-mobile", t.faqAnswerMobile);
+    setText("faq-question-seo", t.faqQuestionSeo);
+    setText("faq-answer-seo", t.faqAnswerSeo);
+    setText("faq-question-update", t.faqQuestionUpdate);
+    setText("faq-answer-update", t.faqAnswerUpdate);
+    setText("faq-question-offer", t.faqQuestionOffer);
+    setText("faq-answer-offer", t.faqAnswerOffer);
+    setText("faq-question-cost", t.faqQuestionCost);
+    setText("faq-answer-cost", t.faqAnswerCost);
+    setText("faq-question-store", t.faqQuestionStore);
+    setText("faq-answer-store", t.faqAnswerStore);
 
     setText("contact-title", t.contactTitle);
     setText("hero-btn-1", t.heroBtn1);
@@ -231,3 +394,29 @@ hamburger.addEventListener("click", () => {
 
 const savedLang = localStorage.getItem("language") || "sr";
 setLanguage(savedLang);
+
+
+
+const paragraphs = document.querySelectorAll("p");
+
+const paragraphObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add("show");
+            }, index * 150);
+        }
+    });
+});
+
+paragraphs.forEach((p) => observer.observe(p));
+
+
+const questions = document.querySelectorAll(".faq-question");
+
+questions.forEach(question => {
+    question.addEventListener("click", () => {
+        const answer = question.nextElementSibling;
+        answer.classList.toggle("active");
+    });
+});
