@@ -179,6 +179,7 @@ const translations = {
 
         footer: "© 2026 PG Development. All rights reserved."
     },
+    
 
     sr: {
         home: "Početna",
