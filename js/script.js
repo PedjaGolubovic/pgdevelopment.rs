@@ -91,8 +91,8 @@ const translations = {
         home: "Home",
         services: "Services",
         portfolio: "Portfolio",
-        about: "About",
-        contact: "Contact",
+        about: "About Us",
+        contact: "Contact Us",
 
         heroTitle: "Modern Websites That Grow Your Business",
         heroText: "PG Development provides professional development of websites, landing pages and SEO optimization for companies, entrepreneurs and local businesses. We create modern, fast and responsive websites that help your business attract more customers and achieve better results on the Internet.",
@@ -142,6 +142,7 @@ const translations = {
         priceMobileResponsive: "Mobile Responsive",
         priceSeoWebShop: "SEO Optimization",
         priceAdminDashboard: "Admin Dashboard",
+        btnGet: "Get Started",
 
         portfolioTitle: "Portfolio",
 
@@ -171,9 +172,9 @@ const translations = {
         faqAnswerStore: "Yes, we create fully functional e-commerce websites with product management and secure payments.",
 
         contactTitle: "Contact Us",
-        name: "Your Name",
-        email: "Your Email",
-        message: "Your Message",
+        //name: "Your Name",
+        //email: "Your Email",
+        //message: "Your Message",
         whatsapp: "Send on WhatsApp",
         mail: "Send on Email",
 
@@ -184,7 +185,7 @@ const translations = {
     sr: {
         home: "Početna",
         services: "Usluge",
-        portfolio: "Portfolio",
+        portfolio: "Radovi",
         about: "O Nama",
         contact: "Kontakt",
 
@@ -236,10 +237,11 @@ const translations = {
         priceMobileResponsive: "Mobilno Prilagođeno",
         priceSeoWebShop: "SEO Optimizacija",
         priceAdminDashboard: "Administrativni Panel",
+        btnGet: "Počni Sada",
 
-        portfolioTitle: "Portfolio",
+        portfolioTitle: "Naši Radovi",
 
-        aboutTitle: "O nama",
+        aboutTitle: "O Nama",
         aboutText: "PG Development je tim posvećen kreiranju modernih, brzih i profesionalnih web sajtova. Naš cilj je da pomognemo pojedincima, preduzetnicima i kompanijama da izgrade snažno prisustvo na mreži kroz kvalitetan dizajn i pouzdana web rešenja. Verujemo da svaki projekat zaslužuje pažnju, kreativnost i tehničku preciznost. Zato razvijamo svaki sajt sa fokusom na korisničko iskustvo, performanse i prilagodljivost svim uređajima. Bez obzira da li vam je potreban poslovni sajt, portfolio, landing stranica ili potpuno prilagođeno web rešenje, trudimo se da vaše ideje pretvorimo u moderan i funkcionalan proizvod koji donosi rezultate. Vaš uspeh na mreži je naš prioritet. Specijalizovani smo za izradu poslovnih sajtova, portfolio prezentacija, landing stranica i optimizaciju za Google pretragu. Naš cilj je da svaki klijent dobije profesionalan web sajt koji izgleda moderno, učitava se brzo i pomaže u privlačenju novih klijenata.", 
 
         technologiesWeUse: "Tehnologije Koje Koristimo",
@@ -265,9 +267,9 @@ const translations = {
         faqAnswerStore: "Da, kreiramo potpuno funkcionalne e-commerce sajtove sa upravljanjem proizvodima i sigurnim plaćanjima.",
 
         contactTitle: "Kontakt",
-        name: "Vaše ime",
-        email: "Vaš email",
-        message: "Vaša poruka",
+        //name: "Vaše ime",
+        //email: "Vaš email",
+        //message: "Vaša poruka",
         whatsapp: "Pošalji preko WhatsApp-a",
         mail: "Pošalji preko Email-a",
 
@@ -329,6 +331,12 @@ function setLanguage(lang) {
     setText("price-mobile-responsive", t.priceMobileResponsive);
     setText("price-seo-web-shop", t.priceSeoWebShop);
     setText("price-admin-dashboard", t.priceAdminDashboard);
+    setText("btn-get", t.btnGet);
+    setText("btn-get-business", t.btnGet);
+    setText("btn-get-premium", t.btnGet);
+    setText("btn-get-web-shop", t.btnGet);
+
+    setText("portfolio-title", t.portfolioTitle);
 
     setText("about-title", t.aboutTitle);
     setText("about-text", t.aboutText);
