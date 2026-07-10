@@ -90,13 +90,32 @@ const translations = {
     en: {
         home: "Home",
         services: "Services",
-        portfolio: "Portfolio",
+        portfolio: "Pricing",
         about: "About Us",
         contact: "Contact Us",
 
-        heroTitle: "Modern Websites That Grow Your Business",
+        home2: "Home",
+        services2: "Services",
+        portfolio2: "Pricing",
+        contact2: "Contact Us",
+
+        footerText1: "Turning Ideas Into Digital Experiences.",
+        footerText2: "Creating modern, responsive and high-performance websites that help businesses grow online.",
+
+        footerHeader1: "Navigation",
+        footerHeader2: "Services",
+        footerHeader3: "Get In Touch",
+
+        servicesText1: "Web Development",
+        servicesText2: "Responsive Design",
+        servicesText3: "Landing Pages",
+        servicesText4: "Website Redesign",
+        servicesText5: "SEO Optimization",
+        servicesText6: "Maintenance & Support",
+
+        heroTitle: "MODERN WEBSITES THAT GROW YOUR BUSINESS",
         heroText: "PG Development provides professional development of websites, landing pages and SEO optimization for companies, entrepreneurs and local businesses. We create modern, fast and responsive websites that help your business attract more customers and achieve better results on the Internet.",
-        heroBtn1: "View Work",
+        heroBtn1: "View Pricing",
         heroBtn2: "Contact Us",
 
         statCardProjects: "Projects Completed",
@@ -107,12 +126,12 @@ const translations = {
         servicesTitle: "Our Services",
         servicespTitle: "We provide complete web solutions for individuals, entrepreneurs and companies. From idea to finished site, we focus on quality, performance and modern design.",
 
-        serviceGridWeb: "Web Development 💻 Creating modern, fast and functional websites tailored to your needs.",
-        serviceGridResponsive: "Responsive Design 📱Sites that work perfectly on phones, tablets and computers.",
-        serviceGridLanding: "Landing Pages 🚀Pages optimized for promoting products, services and attracting customers.",
-        serviceGridRedesign: "Website Redesign 🎨Modernization of existing sites with better appearance, speed and user experience.",
-        serviceGridSeo: "SEO Optimization 📈Optimization of the site to be better positioned on search engines such as Google.",
-        serviceGridMaintenance: "Maintenance & Support 🛠Regular maintenance, updates and technical support after the website is published.",
+        serviceGridWeb: "Web Development:  Creating modern, fast and functional websites tailored to your needs.",
+        serviceGridResponsive: "Responsive Design:  Sites that work perfectly on phones, tablets and computers.",
+        serviceGridLanding: "Landing Pages:  Pages optimized for promoting products, services and attracting customers.",
+        serviceGridRedesign: "Website Redesign:  Modernization of existing sites with better appearance, speed and user experience.",
+        serviceGridSeo: "SEO Optimization:  Optimization of the site to be better positioned on search engines such as Google.",
+        serviceGridMaintenance: "Maintenance & Support:  Regular maintenance, updates and technical support after the website is published.",
 
         pricingTitle: "Pricing Plans",
         pricingCardStarter: "Starter",
@@ -145,6 +164,9 @@ const translations = {
         btnGet: "Get Started",
 
         portfolioTitle: "Portfolio",
+        portfolioText1: "Coming Soon...",
+        portfolioText2: "Coming Soon...",
+        portfolioText3: "Coming Soon...",
 
         aboutTitle: "About Us",
         aboutText: "PG Development is a team dedicated to creating modern, fast and professional websites. Our goal is to help individuals, entrepreneurs and companies build a strong online presence through quality design and reliable web solutions. We believe that every project deserves attention, creativity and technical precision. That's why we develop each site with a focus on user experience, performance and adaptability to all devices. Regardless of whether you need a business website, a portfolio, a landing page or a completely customized web solution, we strive to turn your ideas into a modern and functional product that brings results. Your success online is our priority. We specialize in creating business websites, portfolio presentations, landing pages and optimization for Google search. Our goal is for every client to get a professional website that looks modern, loads fast and helps attract new clients.", 
@@ -185,13 +207,32 @@ const translations = {
     sr: {
         home: "Početna",
         services: "Usluge",
-        portfolio: "Radovi",
+        portfolio: "Cenovnik",
         about: "O Nama",
         contact: "Kontakt",
 
-        heroTitle: "Модерни веб-сајтови који развијају ваше пословање",
+        home2: "Početna",
+        services2: "Usluge",
+        portfolio2: "Cenovnik",
+        contact2: "Kontakt",
+
+        footerText1: "Pretvaranje ideja u digitalna iskustva.",
+        footerText2: "Kreiranje modernih, prilagodivih i visokoefikasnih veb stranica koje pomazu preduzecima da rastu onlajn.",
+
+        footerHeader1: "Navigacija",
+        footerHeader2: "Usluge",
+        footerHeader3: "Kontaktirajte nas",
+
+        servicesText1: "Izrada Sajtova",
+        servicesText2: "Responzivni Dizajn",
+        servicesText3: "Landing Stranice",
+        servicesText4: "Vebsajt Redizajn",
+        servicesText5: "SEO Optimizacija",
+        servicesText6: "Odrzavanje & Podrska",
+
+        heroTitle: "MODERNI VEB-SAJTOVI KOJI RAZVIJAJU VASE POSLOVANJE",
         heroText: "PG Development pruža profesionalnu izradu web sajtova, landing stranica i SEO optimizaciju za firme, preduzetnike i lokalne biznise. Kreiramo moderne, brze i responsivne sajtove koji pomažu vašem poslovanju da privuče više klijenata i ostvari bolje rezultate na internetu.",
-        heroBtn1: "Pogledaj Radove",
+        heroBtn1: "Pogledaj Cenovnik",
         heroBtn2: "Kontakt",
 
         statCardProjects: "Završenih Projekata",
@@ -202,18 +243,18 @@ const translations = {
         servicesTitle: "Naše Usluge",
         servicespTitle: "Pružamo kompletna web rešenja za pojedince, preduzetnike i kompanije. Od ideje do gotovog sajta, fokusirani smo na kvalitet, performanse i moderan dizajn.",
 
-        serviceGridWeb: "Web Development 💻 Izrada modernih, brzih i funkcionalnih web sajtova prilagođenih vašim potrebama.",
-        serviceGridResponsive: "Responsive Design 📱 Sajtovi koji savršeno funkcionišu na telefonima, tabletima i računarima.",
-        serviceGridLanding: "Landing Pages 🚀 Stranice optimizovane za promociju proizvoda, usluga i prikupljanje klijenata.",
-        serviceGridRedesign: "Website Redesign 🎨 Modernizacija postojećih sajtova uz bolji izgled, brzinu i korisničko iskustvo.",
-        serviceGridSeo: "SEO Optimization 📈 Optimizacija sajta kako bi bio bolje pozicioniran na pretraživačima kao što je Google.",
-        serviceGridMaintenance: "Maintenance & Support 🛠️ Redovno održavanje, ažuriranja i tehnička podrška nakon objavljivanja sajta.",
+        serviceGridWeb: "Izrada Sajtova:  Izrada modernih, brzih i funkcionalnih web sajtova prilagođenih vašim potrebama.",
+        serviceGridResponsive: "Responzivni Dizajn:  Sajtovi koji savršeno funkcionišu na telefonima, tabletima i računarima.",
+        serviceGridLanding: "Landing Stranice:  Stranice optimizovane za promociju proizvoda, usluga i prikupljanje klijenata.",
+        serviceGridRedesign: "Vebsajt Redizajn:  Modernizacija postojećih sajtova uz bolji izgled, brzinu i korisničko iskustvo.",
+        serviceGridSeo: "SEO Optimizacija:  Optimizacija sajta kako bi bio bolje pozicioniran na pretraživačima kao što je Google.",
+        serviceGridMaintenance: "Odrzavanje & Podrska:  Redovno održavanje, ažuriranja i tehnička podrška nakon objavljivanja sajta.",
 
         pricingTitle: "Cenovnik",
         pricingCardStarter: "Starter",
-        pricingCardBusiness: "Business",
+        pricingCardBusiness: "Biznis",
         pricingCardPremium: "Premium",
-        pricingCardWebShop: "Web Shop",
+        pricingCardWebShop: "Prodavnica",
         pricingCardPopular: "POPULARNO",
 
         priceLanding: "Landing Stranica",
@@ -240,6 +281,9 @@ const translations = {
         btnGet: "Počni Sada",
 
         portfolioTitle: "Naši Radovi",
+        portfolioText1: "Uskoro...",
+        portfolioText2: "Uskoro...",
+        portfolioText3: "Uskoro...",
 
         aboutTitle: "O Nama",
         aboutText: "PG Development je tim posvećen kreiranju modernih, brzih i profesionalnih web sajtova. Naš cilj je da pomognemo pojedincima, preduzetnicima i kompanijama da izgrade snažno prisustvo na mreži kroz kvalitetan dizajn i pouzdana web rešenja. Verujemo da svaki projekat zaslužuje pažnju, kreativnost i tehničku preciznost. Zato razvijamo svaki sajt sa fokusom na korisničko iskustvo, performanse i prilagodljivost svim uređajima. Bez obzira da li vam je potreban poslovni sajt, portfolio, landing stranica ili potpuno prilagođeno web rešenje, trudimo se da vaše ideje pretvorimo u moderan i funkcionalan proizvod koji donosi rezultate. Vaš uspeh na mreži je naš prioritet. Specijalizovani smo za izradu poslovnih sajtova, portfolio prezentacija, landing stranica i optimizaciju za Google pretragu. Naš cilj je da svaki klijent dobije profesionalan web sajt koji izgleda moderno, učitava se brzo i pomaže u privlačenju novih klijenata.", 
@@ -285,6 +329,26 @@ function setLanguage(lang) {
     setText("nav-portfolio", t.portfolio);
     setText("nav-about", t.about);
     setText("nav-contact", t.contact);
+
+    setText("nav-home2", t.home2);
+    setText("nav-services2", t.services2);
+    setText("nav-portfolio2", t.portfolio2);
+    setText("nav-contact2", t.contact2);
+
+    setText("footer-text1", t.footerText1)
+    setText("footer-text2", t.footerText2)
+
+    setText("footer-header1", t.footerHeader1)
+    setText("footer-header2", t.footerHeader2)
+    setText("footer-header3", t.footerHeader3)
+
+    setText("services-text1", t.servicesText1)
+    setText("services-text2", t.servicesText2)
+    setText("services-text3", t.servicesText3)
+    setText("services-text4", t.servicesText4)
+    setText("services-text5", t.servicesText5)
+    setText("services-text6", t.servicesText6)
+
 
     setText("hero-title", t.heroTitle);
     setText("hero-text", t.heroText);
@@ -337,6 +401,10 @@ function setLanguage(lang) {
     setText("btn-get-web-shop", t.btnGet);
 
     setText("portfolio-title", t.portfolioTitle);
+
+    setText("portfolio-text1", t.portfolioText1);
+    setText("portfolio-text2", t.portfolioText2);
+    setText("portfolio-text3", t.portfolioText3);
 
     setText("about-title", t.aboutTitle);
     setText("about-text", t.aboutText);
