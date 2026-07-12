@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://pedjagolubovic.github.io/pgdevelopment.rs/sitemap.xml
