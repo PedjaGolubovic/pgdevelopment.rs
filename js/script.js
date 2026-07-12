@@ -134,26 +134,37 @@ const translations = {
         serviceGridMaintenance: "Maintenance & Support:  Regular maintenance, updates and technical support after the website is published.",
 
         pricingTitle: "Pricing Plans",
-        pricingCardStarter: "Starter",
-        pricingCardBusiness: "Business",
-        pricingCardPremium: "Premium",
+        pricingCardStarter: "START",
+        pricingCardBusiness: "BUSINESS",
+        pricingCardPremium: "PREMIUM",
         pricingCardWebShop: "Web Shop",
         pricingCardPopular: "POPULAR",
 
-        priceLanding: "Landing Page",
-        priceResponsive: "Mobile Responsive",
+        priceLanding: "One-page Site",
+        priceResponsive: "Modern and Responsive Design",
         priceContact: "Contact Form",
         priceSeo: "Basic SEO",
+        priceBtn: "WhatsApp Btn",
+        priceGooglemaps: "Integration Google Maps",
+        priceSection: "Up to 5 Sections",
+        priceSmma: "Connecting Social Network",
 
-        pricePages: "Up to 5 Pages",
-        priceModern: "Modern Design",
-        priceSeoAdvanced: "SEO Optimization",
-        priceMaps: "Google Maps Integration",
+        pricePages: "Up to 7 Pages",
+        priceModern: "Professional Custom Design",
+        priceSeoAdvanced: "Advanced SEO",
+        pricePortfolio: "Portfolio/Gallery",
+        priceGsc: "Google Search Console",
+        priceAnalytics: "Attendance Analytics",
+        priceBlog: "Blog Section",
 
-        priceUnlimited: "Unlimited Pages",
-        priceAdvancedSeo: "Advanced SEO",
-        priceAnimations: "Custom Animations",
+        priceUnlimited: "Unlimited Number Of Pages",
+        priceDesign: "Completely Unique Design",
+        priceAnimations: "Animation and Premium Effects",
+        priceLanguage: "Multilanguage Site (SR/EN)",
+        priceCatalog: "Product or Service Catalog",
+        priceSystem: "Reservation/Inquiry System",
         pricePriority: "Priority Support",
+        priceFree: "30 Days Free Maintenance",
 
         priceOnlineStore: "Online Store",
         priceProductManagement: "Product Management",
@@ -251,26 +262,37 @@ const translations = {
         serviceGridMaintenance: "Odrzavanje & Podrska:  Redovno održavanje, ažuriranja i tehnička podrška nakon objavljivanja sajta.",
 
         pricingTitle: "Cenovnik",
-        pricingCardStarter: "Starter",
-        pricingCardBusiness: "Biznis",
-        pricingCardPremium: "Premium",
+        pricingCardStarter: "START",
+        pricingCardBusiness: "BIZNIS",
+        pricingCardPremium: "PREMIUM",
         pricingCardWebShop: "Prodavnica",
         pricingCardPopular: "POPULARNO",
 
-        priceLanding: "Landing Stranica",
-        priceResponsive: "Mobilno Prilagođeno",
+        priceLanding: "One-page Sajt",
+        priceResponsive: "Moderann i Responzivan Dizajn",
         priceContact: "Kontakt Forma",
-        priceSeo: "Osnovna SEO Optimizacija",
+        priceSeo: "Osnovni SEO",
+        priceBtn: "WhatsApp Dugme",
+        priceGooglemaps: "Integracija Google Mapa",
+        priceSection: "Do 5 Sekcija",
+        priceSmma: "Povezivanje Drustvenih Mreza",
 
-        pricePages: "Do 5 Stranica",
-        priceModern: "Moderan Dizajn",
-        priceSeoAdvanced: "Napredna SEO Optimizacija",
-        priceMaps: "Integracija Google Mapa",
+        pricePages: "Do 7 Stranica",
+        priceModern: "Profesionalni Dizajn Po Meri",
+        priceSeoAdvanced: "Napredni SEO",
+        pricePortfolio: "Portfolio/Galerija",
+        priceGsc: "Google Search Console",
+        priceAnalytics: "Analitika Posecenosti",
+        priceBlog: "Blog Sekcija",
 
         priceUnlimited: "Neograničen Broj Stranica",
-        priceAdvancedSeo: "Napredna SEO Optimizacija",
-        priceAnimations: "Prilagođene Animacije",
+        priceDesign: "Potpuno Unikatan Dizajn",
+        priceAnimations: "Animacija i Premium Efekti",
+        priceLanguage: "Visejezicki Sajt (SR/EN)",
+        priceCatalog: "Katalog Proizzvoda ili Usluga",
+        priceSystem: "Sistem Rezervacija/Upit",
         pricePriority: "Prioritetna Podrška",
+        priceFree: "30 Dana Besplatnog Odrzavanja",
 
         priceOnlineStore: "Online Prodavnica",
         priceProductManagement: "Upravljanje Proizvodima",
@@ -374,18 +396,32 @@ function setLanguage(lang) {
     setText("price-responsive", t.priceResponsive);
     setText("price-contact", t.priceContact);
     setText("price-seo", t.priceSeo);
+    setText("price-section", t.priceSection);
+    setText("price-smma", t.priceSmma);
+    setText("price-googlemaps", t.priceGooglemaps);
+    setText("price-btn", t.priceBtn);
+
 
     setText("pricing-card-business", t.pricingCardBusiness);
     setText("price-pages", t.pricePages);
     setText("price-modern", t.priceModern);
     setText("price-seo-advanced", t.priceSeoAdvanced);
-    setText("price-maps", t.priceMaps);
+    setText("price-portfolio", t.pricePortfolio);
+    setText("price-gsc", t.priceGsc);
+    setText("price-analytics", t.priceAnalytics);
+    setText("price-blog", t.priceBlog);
+
 
     setText("pricing-card-premium", t.pricingCardPremium);
     setText("price-unlimited", t.priceUnlimited);
-    setText("price-advanced-seo", t.priceAdvancedSeo);
+    setText("price-design", t.priceDesign);
     setText("price-animations", t.priceAnimations);
+    setText("price-language", t.priceLanguage);
+    setText("price-catalog", t.priceCatalog);
+    setText("price-system", t.priceSystem);
     setText("price-priority", t.pricePriority);
+    setText("price-free", t.priceFree);
+
 
     setText("pricing-card-web-shop", t.pricingCardWebShop);
     setText("pricing-card-popular", t.pricingCardPopular);
